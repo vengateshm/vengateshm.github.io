@@ -1,0 +1,47 @@
+[
+	{
+		"name": "Animal Care Hospital",
+		"location": "123 Main St, City",
+		"latitude": 37.1234,
+		"longitude": -122.5678,
+		"email": "info@animalcare.com",
+		"phone": "123-456-7890",
+		"website": "https://www.animalcare.com"
+	},
+	{
+		"name": "Pet Health Clinic",
+		"location": "456 Elm St, Town",
+		"latitude": 38.5678,
+		"longitude": -121.1234,
+		"email": "info@pethealthclinic.com",
+		"phone": "987-654-3210",
+		"website": "https://www.pethealthclinic.com"
+	},
+	{
+		"name": "City Vet Center",
+		"location": "789 Oak Rd, City",
+		"latitude": 36.7890,
+		"longitude": -123.4567,
+		"email": "info@cityvetcenter.com",
+		"phone": "555-555-5555",
+		"website": "https://www.cityvetcenter.com"
+	},
+	{
+		"name": "Happy Tails Veterinary",
+		"location": "567 Pine Ave, Town",
+		"latitude": 39.1234,
+		"longitude": -120.5678,
+		"email": "info@happytails.com",
+		"phone": "111-111-1111",
+		"website": "https://www.happytails.com"
+	},
+	{
+		"name": "Pet Haven Clinic",
+		"location": "890 Maple St, Village",
+		"latitude": 40.5678,
+		"longitude": -119.1234,
+		"email": "info@pethavenclinic.com",
+		"phone": "222-222-2222",
+		"website": "https://www.pethavenclinic.com"
+	}
+]

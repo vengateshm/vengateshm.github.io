@@ -1,60 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - GitHub Portfolio</title>
+    <title>Divided Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Overpass', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
+            background: linear-gradient(to right, #090909, #181818);
         }
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem;
-        }
+
         .container {
-            max-width: 800px;
+            display: flex;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 2rem;
-            background-color: #fff;
-            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
         }
-        .experience {
-            font-size: 1.2rem;
-            line-height: 1.6;
+
+        .left-section {
+            flex: 1;
+            padding-right: 2rem;
+            color: #999;
+            font-size: medium;
+        }
+
+        .right-section {
+            flex: 1;
+            padding-left: 2rem;
+            border-left: 1px solid #ccc;
+            color: #999;
+        }
+
+        .icon-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .icon-container i {
+            font-size: 48px;
+            margin-bottom: 20px;
+            /* Add spacing between icons */
+            color: #333;
         }
     </style>
 </head>
+
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Android App Developer</p>
-    </header>
     <div class="container">
-        <h2>About Me</h2>
-        <p>Welcome to my GitHub portfolio! I am a skilled Android native app developer with 7 years of experience in creating high-quality mobile applications that provide great user experiences.</p>
-
-        <h2>Experience</h2>
-        <div class="experience">
-            <h3>Senior Android Developer - Company Name</h3>
-            <p>Worked on various projects, led a team of developers, and contributed to the development of feature-rich Android applications.</p>
-            <p>Duration: 2016 - Present</p>
+        <div class="left-section">
+            <h1>Vengatesh M</h1>
+            <h2>Android developer with expertise in developing native and cross platform apps</h2>
+            <ul>
+                <li>
+                    7 years of hands-on experience in developing native android mobile applications.
+                </li>
+                <li>
+                    Worked in startup companies in their early stages and helped in their product development and
+                    company growth. Worked in team of 2 people and large enterprise teams.
+                </li>
+                <li>
+                    Worked in agile environment and has experience in all stages of SDLC from design to release for
+                    mobile app development.
+                </li>
+                <li>
+                    Can develop android apps for mobiles, tablets in Java and Kotlin programming language following
+                    industry recommended architectures like MVP, MVVM.
+                </li>
+                <li>
+                    Predominantly worked with Paas platforms like Firebase and have built applications on that. Can
+                    develop apps in cross platform frameworks like Flutter, React Native, Kotlin Multiplatform, Compose
+                    Multiplatform.
+                </li>
+            </ul>
         </div>
-
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="#">Project 1: App Name</a> - Description of the project and your role.</li>
-            <li><a href="#">Project 2: App Name</a> - Description of the project and your role.</li>
-            <!-- Add more projects here -->
-        </ul>
-
-        <h2>Contact Me</h2>
-        <p>If you're interested in collaborating or have any inquiries, feel free to reach out to me at <a href="mailto:vengateshm.13@gmail.com">vengateshm.13@gmail.com</a>.</p>
+        <div class="right-section">
+            <h1>Primary Skills</h1>
+            <ul class="skills">
+                <li>Android</li>
+                <li>Java</li>
+                <li>Kotlin</li>
+                <li>Firebase</li>
+            </ul>
+            <h1>Additional Skills</h1>
+            <ul class="skills">
+                <li>Kotlin Multiplatform</li>
+                <li>Flutter</li>
+                <li>React Native</li>
+                <li>Node.js</li>
+                <li>Spring Boot</li>
+                <li>Ktor</li>
+                <li>Google Cloud Functions, Pub/Sub</li>
+                <li>AWS EC2</li>
+            </ul>
+        </div>
+        <div class="icon-container">
+            <a href="https://github.com/vengateshm" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/vengatesh-m-b39456245/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
     </div>
 </body>
+
 </html>
